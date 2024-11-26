@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - AutoCom</title>
+    <!-- Vincular la hoja de estilos -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Encabezado con el nombre de la empresa -->
+    <header>
+        <h1>Autos Usados AutoCom</h1>
+<nav>
+    <!-- Menú de navegación con enlace a Inicio -->
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes_somos.html">¿Quiénes somos?</a></li>
+        <li><a href="productos_servicios.html">Productos y Servicios</a></li>
+        <li><a href="contacto.html">Contáctanos</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <!-- Sección principal del formulario de contacto -->
+    <main>
+        <h2>Contáctanos</h2>
+        <p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros.</p>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre del cliente:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="celular">Celular:</label>
+                <input type="tel" id="celular" name="celular" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mail">Correo Electrónico:</label>
+                <input type="email" id="mail" name="mail" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tipo_servicio">Tipo de servicio o producto:</label>
+                <select id="tipo_servicio" name="tipo_servicio">
+                    <option value="compra">Compra de auto</option>
+                    <option value="mantenimiento">Mantenimiento</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn-primary">Enviar</button>
+                <button type="reset" class="btn-secondary">Borrar</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Pie de página con información de los desarrolladores -->
+    <footer>
+        <p>Desarrollado por: <br>
+            Luis Angel Gonzalez Ovando,
+            Jose Gersain Arandia Mosqueda,
+            Diego Mendoza Diaz</p>
+    </footer>
+</body>
+</html>
+
