@@ -188,3 +188,16 @@ form .btn-secondary:hover {
     }
 }
 
+/* Estilo para imágenes con efecto de sustitución */
+.hover-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px; /* Ajusta el tamaño máximo según tus necesidades */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Suaviza la transición */
+}
+
+.hover-img:hover {
+    content: url('imagenes/sedan-hover.jfif'); /* Sustituye la imagen al pasar el mouse */
+    transform: scale(1.1); /* Efecto de agrandamiento opcional */
+}
