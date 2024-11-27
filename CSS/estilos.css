@@ -192,12 +192,12 @@ form .btn-secondary:hover {
 .hover-img {
     display: block;
     margin: 0 auto;
-    width: 100%;
-    max-width: 200px; /* Ajusta el tamaño máximo según tus necesidades */
+    width: 200px; /* Ajusta el ancho según tu diseño */
+    height: 150px; /* Ajusta el alto según tu diseño */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin distorsionarse */
     transition: transform 0.3s ease, opacity 0.3s ease; /* Suaviza la transición */
 }
 
 .hover-img:hover {
-    content: url('imagenes/sedan-hover.jfif'); /* Sustituye la imagen al pasar el mouse */
-    transform: scale(1.1); /* Efecto de agrandamiento opcional */
+    transform: scale(1.05); /* Efecto de agrandamiento opcional */
 }
