@@ -26,36 +26,57 @@
     <main>
         <h2>Contáctanos</h2>
         <p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros.</p>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="nombre">Nombre del cliente:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
+            <form action="#" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre del cliente:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
 
-            <div class="form-group">
-                <label for="celular">Celular:</label>
-                <input type="tel" id="celular" name="celular" required>
-            </div>
+        <div class="form-group">
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular" required>
+        </div>
 
-            <div class="form-group">
-                <label for="mail">Correo Electrónico:</label>
-                <input type="email" id="mail" name="mail" required>
-            </div>
+        <div class="form-group">
+            <label for="mail">Correo Electrónico:</label>
+            <input type="email" id="mail" name="mail" required>
+        </div>
 
-            <div class="form-group">
-                <label for="tipo_servicio">Tipo de servicio o producto:</label>
-                <select id="tipo_servicio" name="tipo_servicio">
-                    <option value="compra">Compra de auto</option>
-                    <option value="mantenimiento">Mantenimiento</option>
-                    <option value="otro">Otro</option>
-                </select>
-            </div>
+        <div class="form-group">
+            <label for="tipo_servicio">Tipo de servicio o producto:</label>
+            <select id="tipo_servicio" name="tipo_servicio">
+                <option value="compra">Compra de auto</option>
+                <option value="mantenimiento">Mantenimiento</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
 
-            <div class="form-buttons">
-                <button type="submit" class="btn-primary">Enviar</button>
-                <button type="reset" class="btn-secondary">Borrar</button>
+        <div class="form-group">
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" required>
+        </div>
+
+        <div class="form-group">
+            <label>Forma de pago:</label>
+            <div>
+                <input type="radio" id="tarjeta" name="forma_pago" value="tarjeta" checked>
+                <label for="tarjeta">Tarjeta De Credito/Debito</label>
             </div>
-        </form>
+            <div>
+                <input type="radio" id="deposito" name="forma_pago" value="deposito">
+                <label for="deposito">Depósito en Tiendas</label>
+            </div>
+            <div>
+                <input type="radio" id="oxxo" name="forma_pago" value="oxxo">
+                <label for="oxxo">Pago en Oxxo</label>
+            </div>
+        </div>
+
+        <div class="form-buttons">
+            <button type="submit" class="btn-primary">Enviar</button>
+            <button type="reset" class="btn-secondary">Borrar</button>
+        </div>
+    </form>
     </main>
 
     <!-- Pie de página con información de los desarrolladores -->
